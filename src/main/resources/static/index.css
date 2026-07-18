@@ -1,3 +1,57 @@
-h1{
-    color: orangered;
+color:brown;
+}
+body{
+    margin:0px;
+    background-color: rgb(235, 229, 229);
+}
+.navbar{
+    background-color: aliceblue;
+    /* border-style: solid; */
+    border-width: 1px;
+    border-color: black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.navbar a{
+    padding:20px;
+    text-decoration: none;
+    color:black;
+}
+.navbar a:hover{
+    color:burlywood;
+    background-color: rgb(30, 33, 22);
+}
+.card
+{
+    text-align: center;
+    border: 1px solid black;
+    width: 350px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 70px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card img{
+    width: 100%;
+    margin-left: auto;
+    margin-left: auto;
+}
+.card button{
+    color: black;
+    border-style: none;
+    padding: 10px;
+    width: 80%;
+    border-radius: 8px;
+
+}
+.card button:hover
+{
+    color: rgb(243, 209, 159);
+    background-color: black;
 }
