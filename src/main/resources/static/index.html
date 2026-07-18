@@ -3,25 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>User Card</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-   <div class="navbar">
-    <a href="https://autosuggest-spring-8j18.onrender.com/">HOME</a>
-    <a href="https://github.com/">GITHUB</a>
-    <a href="https://leetcode.com/">LEETCODE</a>
-    <a href="https://autosuggest-spring-8j18.onrender.com/">AUTOSUGGEST</a>
-   </div>
-   <div class="card">
-    <img src="john.png" alt="image not found">
-    <h3 id="username">HRUSHIKESH</h3>
-   <p>Male</p>
-    <p>Age: 20</p>
-    <button>Toggleuser</button>
-    <br>
-<br>
-<button>Random user</button>
+
+    <div class="navbar">
+        <a href="https://autosuggest-spring-8j18.onrender.com/">HOME</a>
+        <a href="https://github.com/">GITHUB</a>
+        <a href="https://leetcode.com/">LEETCODE</a>
+        <a href="https://autosuggest-spring-8j18.onrender.com/">AUTOSUGGEST</a>
+    </div>
+
+    <div class="card">
+        <img id="userImage" src="john.png" alt="User Image">
+
+        <h3 id="username">Bob</h3>
+
+        <p id="usergender">Male</p>
+
+        <button onclick="toggleuser()">Toggle User</button>
+
+        <br><br>
+
+        <button onclick="randomuser()">Random User</button>
+    </div>
+
     <script src="index.js"></script>
+
 </body>
 </html>
